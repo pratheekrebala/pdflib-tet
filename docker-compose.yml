@@ -1,0 +1,8 @@
+version: '3'
+services:
+  pdflib-tet:
+    image: pdflib-tet
+    build: .
+    volumes:
+      - ./data:/data
+      - ./licensekeys.txt:/pdflib-tet/licensekeys.txt
