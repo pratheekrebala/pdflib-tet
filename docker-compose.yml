@@ -6,3 +6,5 @@ services:
     volumes:
       - ./data:/data
       - ./licensekeys.txt:/pdflib-tet/licensekeys.txt
+    environment:
+      - PDFLIBLICENSEFILE=/pdflib-tet/licensekeys.txt
