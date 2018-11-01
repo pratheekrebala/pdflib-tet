@@ -1,0 +1,7 @@
+docstyle=book
+structureanalysis = { list=true overpagelists=never}
+layouteffort=extra ignoreartifacts=true
+layouthint={ header=true footer=true }
+contentanalysis={lineseparator=space linespacing=medium punctuationbreaks=true}
+layoutanalysis = {layoutdetect=3 layoutrowhint={none separation=thin}}
+excludebox = { { 0 0 126 792 } }
