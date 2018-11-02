@@ -1,2 +1,6 @@
 engines={text=true image=true vector=true textcolor=true}
 lineseparator=U+0020
+paraseparator=U+2029
+fold={{[:blank:] U+0020}}
+shrug=true
+inmemory=true

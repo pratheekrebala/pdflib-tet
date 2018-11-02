@@ -15,7 +15,7 @@ RUN ls . && rm licensekeys.txt
 
 RUN ln -s $(pwd)/bin/tet /usr/local/bin/tet
 
-RUN apt -y install xsltproc
+RUN apt -y install xsltproc build-essential
 
 VOLUME [ "/data" ]
 VOLUME [ "/pdflib-tet/licensekeys.txt" ]

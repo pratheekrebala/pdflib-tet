@@ -1,7 +1,6 @@
 docstyle=book
-structureanalysis = { list=true overpagelists=never}
-layouteffort=extra ignoreartifacts=true
+structureanalysis = { list=true overpagelists=never }
+layouteffort=high
 layouthint={ header=true footer=true }
-contentanalysis={lineseparator=space linespacing=medium punctuationbreaks=true}
-layoutanalysis = {layoutdetect=3 layoutrowhint={none separation=thin}}
-excludebox = { { 0 0 126 792 } }
+layoutanalysis = { layoutastable=false layoutdetect=3 layoutrowhint={ full separation=thick } }
+contentanalysis = { linespacing=large merge=1 maxwords=unlimited }
