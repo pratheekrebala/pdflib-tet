@@ -1,6 +1,0 @@
-docstyle=book
-structureanalysis = { list=true overpagelists=never }
-layouteffort=high
-layouthint={ header=true footer=true }
-layoutanalysis = { layoutastable=false layoutdetect=3 layoutrowhint={ full separation=thick } }
-contentanalysis = { linespacing=large merge=1 maxwords=unlimited }
