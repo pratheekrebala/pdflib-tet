@@ -11,6 +11,11 @@ RUN apt -y update
 RUN apt -y install curl
 RUN apt -y install xsltproc build-essential
 
+RUN apt -y install python3-pip
+
+COPY ./lib/pdflib-tet-py/ /pdflib-tet-py
+RUN pip3 install /pdflib-tet-py
+
 WORKDIR /pdflib-tet
 
 RUN curl -L $tetBinary | tar xvz --strip-components=1 -C .

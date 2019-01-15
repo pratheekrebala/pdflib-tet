@@ -1,0 +1,3 @@
+[submodule "lib/pdflib-tet-py"]
+	path = lib/pdflib-tet-py
+	url = git@github.com:pratheekrebala/pdflib-tet-py.git
